@@ -1,11 +1,10 @@
 body{
     background-color: aquamarine;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, sans-serif
 }
 .content{
     justify-content: center;  
     justify-items: center;
-    width: 100%;
     padding: 16px;
     border: 2px dashed;
 }
@@ -21,6 +20,7 @@ img{
     border-radius: 20px;
     align-self: center;
     max-width: 256px;
+    margin-bottom: 40px;
 }
 #link{
     display: block;
@@ -29,4 +29,25 @@ img{
 }
 #link:hover {
   color: blueviolet;
+}
+
+.navbar {
+    background-color: #495c6f;
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+}
+
+.navbar a {
+    display: inline-block; 
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #4a6683;
+    color: #3498db;
 }

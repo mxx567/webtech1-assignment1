@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #eef2f3, #8e9eab); 
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+
+.header {
+    background-color: #5c8dc8; 
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    max-width: 700px;      
+    margin: 30px auto;     
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;   
+}
+
+.image-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 256px;
+    height: 256px;    
+    height: auto;
+    border-radius: 20%;    
+}
+
+h2 {
+    color: #2a475e;
+    margin: 20px 0 10px 0;
+}
+
+h3 {
+    color: #66c0f4;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;      
+    margin-bottom: 15px;
+}
+
+ol, ul {
+    margin-left: 20px;    
+}
+
+li {
+    margin-bottom: 10px;   
+    line-height: 1.5;
+}
+
+
+ul {
+    list-style-type: square; 
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #e1e1e1;
+    margin: 25px 0;
+}
+
+
+.links-section {
+    text-align: center;
+    margin-top: 25px;
+}
+
+a {
+    color: #1078ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.btn {
+    display: inline-block;
+    background-color: #a32a2a; 
+    color: #ffffff;
+    padding: 12px 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 25px;     
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #bf3636; 
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #495c6f;
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+}
+
+.navbar a {
+    display: inline-block; 
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #4a6683;
+    color: #3498db;
+}
+
